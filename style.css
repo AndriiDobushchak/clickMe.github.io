@@ -20,5 +20,11 @@ body {
 	position: absolute;
 	z-index: 100;
 	transition-timing-function: linear ;
-	/*left:100px;*/
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	/* text-align: right; */
 }
