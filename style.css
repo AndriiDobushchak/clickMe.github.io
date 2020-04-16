@@ -1,0 +1,24 @@
+body {
+	background-color: rgb(0,200,0);
+}
+
+#fild {
+	top: 50px;
+	right: 50px;
+	left: 50px;
+	bottom: 50px;
+	position: fixed;
+	background-color: #ccc;
+	margin: auto;
+	border-radius: 10px;
+}
+.ball {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	z-index: 100;
+	transition-timing-function: linear ;
+	/*left:100px;*/
+}
